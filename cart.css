@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ body {
+    background-color: rgba(43, 41, 41, 0.514);
+ }
+ 
+ 
+ .main-heading {
+    text-align: center;
+    padding: 20px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+ }
+ 
+ .add-to-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .add-to-cart {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+ }
+ 
+ .nav-list {
+    margin: 0 50px;
+ }
+ 
+ .nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+ 
+ }
